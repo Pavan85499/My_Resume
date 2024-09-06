@@ -7,11 +7,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #32352dd0;
+  color: #000000d0;
 }
 
 a {
-  color: #084074b7;
+  color: #0634c9b7;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h6 {
 
 .back-to-top:hover {
   background: #0678e3;
-  color: rgb(189, 184, 184);
+  color: rgb(247, 247, 247);
 }
 
 .back-to-top.active {
@@ -138,7 +138,7 @@ h6 {
   #header {
     width: 300px;
     background: #fff;
-    border-right: 1px solid #e6e9ec;
+    border-right: 1px solid #fbfcfc;
     left: -300px;
   }
 }
@@ -196,7 +196,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #060809;
 }
 
 @media (min-width: 992px) {
