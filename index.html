@@ -370,6 +370,25 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    const form = document.querySelector(".contact_form"),
+          name = form.querySelector(".name"),
+          email = form.querySelector(".email"),
+          message = form.querySelector(".message");
+
+  Email.send({
+    SecureToken: "7f5d9c7c-4c1c-4e5b-9a8e-6c0e4a6f0c9f",
+    To : "pavansv87@gmail.com",
+    From : "email.value,",
+    Subject : `Message from ${name.value}`,
+    Body : "And this is the body"
+  }).then()        
+  </script>        
+
+    
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
